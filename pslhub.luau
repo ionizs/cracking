@@ -1,5 +1,5 @@
-local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library/refs/heads/main/Library", true))()
-v1:AddWindow("PSL HUB", {
+local v0 = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library/refs/heads/main/Library", true))()
+local v1 = v0:AddWindow("PSL HUB", {
     main_color = Color3.fromRGB(139, 0, 0),
     min_size = Vector2.new(615, 685),
     can_resize = false,
