@@ -12,7 +12,7 @@ v2:AddLabel("\227\128\142 OWNER OF THIS SCRIPT \227\128\143  Kev ")
 v2:AddLabel("Script Made By |", {
     TextColor3 = Color3.fromRGB(255, 255, 255)
 })
-local vu3 = v2:AddLabel("                                             Kev)")
+local vu3 = v2:AddLabel("                                             Kev")
 task.spawn(function()
     local v4 = 0
     while true do
