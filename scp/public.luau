@@ -1,4 +1,5 @@
-local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moha-space/elerium-v2-ui-library/refs/heads/main/Library", true))():AddWindow("                                   SOUL CRUSHER PACT | Deobfuscated by Henne | PUBLIC ", {
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moha-space/elerium-v2-ui-library/refs/heads/main/Library", true))()
+v1:AddWindow("PSL HUB", {
     main_color = Color3.fromRGB(139, 0, 0),
     min_size = Vector2.new(615, 685),
     can_resize = false,
@@ -7,11 +8,11 @@ local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moha-space
 local v2 = v1:AddTab("I N F  \226\140\172")
 v2:AddLabel("\227\128\142 INFO \227\128\143\226\159\161\227\128\142 ABOUT \227\128\143\226\159\161\227\128\142 THE \227\128\143\226\159\161\227\128\142 SCRIPT \227\128\143")
 v2:AddLabel("WELCOME TO SCP HUB  \226\152\132\239\184\143")
-v2:AddLabel("\227\128\142 OWNER OF THIS SCRIPT \227\128\143  Its public ")
+v2:AddLabel("\227\128\142 OWNER OF THIS SCRIPT \227\128\143  Kev ")
 v2:AddLabel("Script Made By |", {
     TextColor3 = Color3.fromRGB(255, 255, 255)
 })
-local vu3 = v2:AddLabel("                                             Moha (ChatGPT)")
+local vu3 = v2:AddLabel("                                             Kev)")
 task.spawn(function()
     local v4 = 0
     while true do
